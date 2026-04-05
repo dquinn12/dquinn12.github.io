@@ -1,0 +1,85 @@
+/* 
+.cardo-regular {
+  font-family: "Cardo", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.cardo-bold {
+  font-family: "Cardo", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.cardo-regular-italic {
+  font-family: "Cardo", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+--------
+.josefin-sans-<uniquifier> {
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+  */
+
+*{
+    --fiery-terracotta: #f2542dff;
+    --baltic-blue: #1c5d99ff;
+    --salmon: #fc977dff;
+}
+body{
+    background-color: var(--baltic-blue);
+    background-image: url(./assets/css-pattern-by-magicpattern.png);
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 0px;
+    padding-bottom: 60px;
+}
+
+header{
+  padding-top: 16px;
+  padding-bottom: 16px;
+  margin-bottom: 32px;
+  background-color: var(--salmon);
+  text-align: center;
+  font-family: "Cardo", monospace;
+  font-size: 32px;
+  font-weight: 700;
+  text-shadow: 0 5px 5px var(--fiery-terracotta);
+}
+
+header::first-letter{
+  font-size: 50px;
+}
+.title{
+  padding-top: 16px;
+  padding-bottom: 16px;
+  background-color: var(--salmon);
+  text-align: center;
+  font-family: "Cardo", monospace;
+  font-size: 16px;
+  font-weight: 600;
+  font-style: italic;
+}
+#glance{
+  background-color: var(--salmon);
+
+}
+button{
+  background-color: var(--salmon);
+}
+section{
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 8px;
+  background-color: var(--salmon);
+}
+h3{
+  font-family: "Cardo", serif;
+}
+p{
+  font-family: "Josefin Sans", sans-serif;
+}
