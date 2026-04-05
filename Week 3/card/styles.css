@@ -1,0 +1,21 @@
+body{
+    background-color: grey;
+    font-family: "Google Sans", sans-serif;
+}
+.card{
+    height: 750px;
+    width: 500px;
+    background-color: salmon;
+    padding: 36px;
+    border-radius: 12px;
+}
+
+img{
+    height: 300px;
+    width: 100%;
+    object-fit: fill;
+    margin-bottom: 12px;
+}
+#ability{
+    color: blue;
+}
