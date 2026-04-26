@@ -1,0 +1,26 @@
+body{
+    background-color: gray;
+}
+.textbox2{
+    position: fixed;
+    left: -600px;
+}
+.textbox3{
+    position: fixed;
+    left: -600px;
+}
+.colors{
+    position: fixed;
+    top:224px;
+}
+#red{
+    background-color: red;
+    color: white;
+}
+#yellow{
+    background-color: yellow;
+}
+#blue{
+    background-color: blue;
+    color: white;
+}
